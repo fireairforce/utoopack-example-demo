@@ -1,0 +1,33 @@
+{
+    "name": "utoopack-example-demo",
+    "version": "1.0.0",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "scripts": {
+      "build": "up build",
+      "dev": "up dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^5.0.1",
+      "@ant-design/pro-components": "^2.4.14",
+      "@monaco-editor/react": "^4.4.6",
+      "@tanstack/react-query": "^5.67.3",
+      "antd": "^5.12.2",
+      "axios": "^1.3.6",
+      "lodash": "^4.17.21",
+      "react": "^19.1.0",
+      "react-dom": "^19.1.0",
+      "react-router-dom": "^6.10.0",
+      "styled-components": "^5.3.10",
+      "valtio": "^1.10.4"
+    },
+    "devDependencies": {
+      "@types/lodash": "^4.17.16",
+      "@types/react": "^18.2.0",
+      "@types/react-dom": "^18.2.0",
+      "@types/styled-components": "^5.1.34",
+      "@utoo/pack-cli": "^1.1.22"
+    }
+  }
+  

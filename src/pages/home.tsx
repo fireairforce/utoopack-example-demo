@@ -1,6 +1,5 @@
 import { Button } from "antd";
 import axios from "axios";
-import lodash from "lodash";
 import React, { useState } from "react";
 
 export function Home() {
@@ -23,7 +22,6 @@ export function Home() {
             });
         }}
       >
-        {lodash.toUpper("load data")}{" "}
       </Button>
       {loading && <div>loading...</div>}
       {data && <pre>{JSON.stringify(data, null, 2)}</pre>}

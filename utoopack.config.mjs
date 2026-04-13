@@ -19,4 +19,5 @@ export default defineConfig({
         clean: true
     },
     stats: true,
+    rootPath: '.'
 })
